@@ -1,0 +1,18 @@
+# Dictionaries - a special structure in python
+# Key : Value
+
+monthConversions = {
+    "Jan": "Ichigatsu",
+    "Feb": "Nigatsu",
+    "Mar": "Sangatsu",
+    "Apr": "Shigatsu",
+    "May": "Gogatsu",
+    "Jun": "Rokugatsu",
+    "Jul": "Shichigatsu",
+    "Aug": "Hachigatsu",
+    "Sep": "Kugatsu",
+    "Oct": "Juugatsu",
+    "Nov": "Juuichigatsu",
+    "Dec": "Juunigatsu"
+}
+print(monthConversions.get("Dec"))
